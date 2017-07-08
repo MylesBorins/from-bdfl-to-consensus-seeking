@@ -87,6 +87,39 @@ html
     .gzip {
       background-image: url('images/gzip.png')
     }
+    .trippy-kitty-2 {
+      background-image: url('images/trippy-kitty-2.gif')
+    }
+    .trippy-kitty-3 {
+      background-image: url('images/trippy-kitty-3.jpg')
+    }
+    .recursion {
+      background-image: url('images/recursion.jpg')
+    }
+    .collab {
+      background-image: url('images/collab.gif')
+    }
+    .process {
+      background-image: url('images/process.jpg')
+    }
+    .process-2 {
+      background-image: url('images/process-2.gif')
+    }
+    .consensus {
+      background-image: url('images/consensus.jpg')
+    }
+    .fractal {
+      background-image: url('images/fractal.gif')
+    }
+    .stability {
+      background-image: url('images/stability.gif')
+    }
+    .whatever {
+      background-image: url('images/whatever.gif')
+    }
+    .yes {
+      background-image: url('images/yes.gif')
+    }
 
   body
 
@@ -98,15 +131,21 @@ html
         h4 With your host
         h4
           a(href='https://twitter.com/MylesBorins') @MylesBorins
-        p  Polyconf 2017
+        p Polyconf 2017
         
       section(data-bespoke-backdrop='hello')
         h1 Bonjour
-        
+
+      section(data-bespoke-backdrop='trippy-kitty-2')
+        h1 Hello
+      
+      section(data-bespoke-backdrop='trippy-kitty-3')
+        h1 cześć
+
       section
         h2 My Name is Myles
         img.headroom(src='images/me.jpg' alt='itsa me!' height="60%")
-      
+
       section
         h3 I am gainfully employed by Google as a Developer Advocate
         h4 Focusing on the Node.js ecosystem and GCP
@@ -118,7 +157,7 @@ html
       section(data-bespoke-backdrop='osi')
         h1 What even is open source governance
 
-      section
+      section(data-bespoke-backdrop='recursion')
         h1 How is Node Governed?
       
       section(data-bespoke-backdrop='board')
@@ -133,23 +172,25 @@ html
         h1 CTC
         h2.headroom 22 members
       
-      section
+      section(data-bespoke-backdrop='collab')
         h1 Collaborators
         h2.headroom 106 members
       
       section(data-bespoke-backdrop='wg')
         h1 Working Groups
-        h2.headroom sooooo many (this is a good thing)
+        h2.headroom sooooo many
+        h3 (this is a good thing)
       
-      section
+      section(data-bespoke-backdrop='process')
         h1 Trust in individuals can be replaced
-        h2 With trust process and tooling / process
-      
-      section
+        h3.headroom With trust in
+        h2 process and tooling
+
+      section(data-bespoke-backdrop='consensus')
         h1 Consensus Seeking
         h2 Our Technical Governance Model
       
-      section
+      section(data-bespoke-backdrop='fractal')
         h1 But how did we get here?
       
       section(data-bespoke-backdrop='flux')
@@ -224,7 +265,7 @@ html
         h1 Under corporate sponsorship
         h2.headroom Node stagnated
       
-      section
+      section(data-bespoke-backdrop='stability')
         h2 Node started with alternating releases
         h3 Even was stable
         h3 Odd was unstable
@@ -275,15 +316,15 @@ html
 
       section
         h1 We have a well defined release process
-        h2.headroom Including a Long Term Support schedule
+        h3.headroom Including a Long Term Support schedule
       
       section
         img(src='images/schedule.png' alt='Node.js LTS schedule')
 
-      section
-        h2 Trust in individuals
-        h3 can be replaced
-        h2 With trust process and tooling
+      section(data-bespoke-backdrop='process-2')
+        h1 Trust in individuals can be replaced
+        h3.headroom With trust in
+        h2 process and tooling
 
       section(data-bespoke-backdrop='ci')
         h1 CI
@@ -311,7 +352,7 @@ html
       section
         h1 So which Governance model should I use?
       
-      section
+      section(data-bespoke-backdrop='whatever')
         h1 Use whatever you want!
       
       section
@@ -323,6 +364,12 @@ html
       section
         h1 What is important
         h2.headroom Is that you empower your community
+
+      section(data-bespoke-backdrop='yes')
+        h1 I couldn't find a slide for this one
+      
+      section
+        img(src='images/adventure.gif')
 
       section
         h2 Thank You
